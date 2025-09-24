@@ -1,5 +1,5 @@
 from django.urls import path, include 
-from main.views import show_main, create_news, show_news, show_xml, show_json, show_xml_by_id, show_json_by_id
+from main.views import show_main, create_news, show_news, show_xml, show_json, show_xml_by_id, show_json_by_id, edit_news
 
 app_name = 'main'
 
